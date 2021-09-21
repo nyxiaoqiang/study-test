@@ -1,9 +1,9 @@
 package com.example.studytest.classload;
 
 import sun.net.spi.nameservice.dns.DNSNameService;
-import sun.plugin.cache.CacheUpdateHelper;
 
 import java.io.BufferedReader;
+import java.langtest.String;
 
 public class ClassLoadTest {
     public static void main(String[] args) {

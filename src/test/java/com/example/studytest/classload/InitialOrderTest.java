@@ -1,6 +1,7 @@
 package com.example.studytest.classload;
 
 
+
 public class InitialOrderTest {
 
     //常量在准备阶段就赋值

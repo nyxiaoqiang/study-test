@@ -1,5 +1,6 @@
 package com.example.studytest.classload;
 
+
 /**
  * 有继承关系的类初始化顺序
  */

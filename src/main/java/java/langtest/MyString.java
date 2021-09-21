@@ -1,4 +1,4 @@
-package java.lang;
+package java.langtest;
 
 /**
  * 测试双亲委派

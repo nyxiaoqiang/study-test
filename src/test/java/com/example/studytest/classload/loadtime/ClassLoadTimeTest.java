@@ -1,5 +1,6 @@
 package com.example.studytest.classload.loadtime;
 
+
 public class ClassLoadTimeTest {
 
     //使用-XX:+TraceClassLoading 监控类的加载
