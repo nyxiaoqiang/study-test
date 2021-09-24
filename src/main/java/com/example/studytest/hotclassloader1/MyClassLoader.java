@@ -1,12 +1,19 @@
-package com.example.studytest.classload.parent;
+package com.example.studytest.hotclassloader1;
 
 import java.io.InputStream;
+import java.net.URL;
+import java.net.URLClassLoader;
 
-public class MyClassLoader extends ClassLoader{
+public class MyClassLoader extends URLClassLoader {
+
+
+    public MyClassLoader(URL[] urls) {
+        super(urls);
+    }
 
     @Override
     public Class<?> loadClass(String name) throws ClassNotFoundException {
-        return super.loadClass(name,true);
+        return super.loadClass(name,false);
     }
 
     @Override
