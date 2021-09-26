@@ -7,5 +7,6 @@ public class Test2 {
         Class<?> myServiceClass = MyService.class;
         MyService o = (MyService) myServiceClass.newInstance();
         o.printVersion();
+        System.out.println(MyClassLoader.class.getClassLoader());
     }
 }
